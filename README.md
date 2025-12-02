@@ -1,6 +1,6 @@
 # 🏈 NFL Player Movement Prediction
 
-This repository was created to store the learning process and predictions developed for an **NFL competition** aimed at **predicting a player's next movements during a play**, based on previously provided information.
+This repository was created to store the learning process and predictions developed for an **[NFL competition](https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/overview)** aimed at **predicting a player's next movements during a play**, based on previously provided information.
 
 The project uses a **simple LSTM model**, fed with several features related to **position**, **acceleration**, **speed**, **direction**, and more. The RMSE was approximately 7 yards, meaning that, on average, the model misses a player's play by 7 yards. It's important to remember that a play can contain multiple moments; for our prediction, the maximum predicted was 30 points, equivalent to 3 seconds.
 
